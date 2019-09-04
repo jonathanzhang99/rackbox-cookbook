@@ -15,6 +15,7 @@ node["rackbox"]["ruby"]["versions"].each do |rb_version|
   end
   rbenv_gem "bundler" do
     ruby_version rb_version
+    version "1.0"
   end
 
 end
